@@ -421,10 +421,14 @@ margin-bottom: 60px ;
     width: 86.0638%;
     display: flex;
     flex-direction: column;
-  row-gap: 35px;
+   margin-bottom: 10px;
 }
 
+.footer_contact_section img {
+    padding: 13px 0px;
+}
 .footer_contact_section a {
+    padding: 10px ;
     width: fit-content;
 }
 .ul_footer {
@@ -436,10 +440,14 @@ margin-bottom: 60px ;
     display: flex;
     align-items: flex-start;
 }
+.location img {
+    margin-right: 15px;
+}
 .location {
+    
     display: flex;
     align-items: flex-start;
-    column-gap: 20px; 
+    /* column-gap: 20px;  */
     width: 37.2093%;
 }
 #p_location {
@@ -448,7 +456,7 @@ margin-bottom: 60px ;
 .email_phone_number {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    /* row-gap: 20px; */
     width: 25.2369%;
 }
 .phone_flex_email {
@@ -461,18 +469,19 @@ margin-bottom: 60px ;
 .about_us {
     display: flex;
     flex-direction: column;
-    row-gap: 21px;
+   /*  row-gap: 21px; */
     width: 12.317%;
 }
 .terms_policy {
     display: flex;
     flex-direction: column;
-   row-gap: 23px;
+   /* row-gap: 23px; */
     width: 15.59%;
 }
 .social_media {
+
     display: flex;
-    column-gap: 10px;
+   /*  column-gap: 10px; */
 }
 .social_media:hover {
     color: hsl(176, 68%, 64%);
@@ -483,6 +492,7 @@ margin-bottom: 60px ;
     border: 1px solid white;
     border-radius: 50%;
     padding: 7px;
+    margin: 0 5px;
     cursor: pointer;
 }
 .social_media_a:hover {
@@ -516,9 +526,6 @@ margin-bottom: 60px ;
 
 
 
-
-
-
 @media only screen and (max-width: 1078px) {
     .footer_contact_section {
         width: 97%;
@@ -541,7 +548,8 @@ margin-bottom: 60px ;
         display: grid;
         align-items: center;
         justify-items: center;
-        gap: 10px;
+        /* gap: 100px; */
+       padding: 5px 0;
     }
     .input_email {
         margin-bottom: 10px;
@@ -562,10 +570,11 @@ margin-bottom: 60px ;
     }
     .footer_contact_text {
         flex-direction: column;
-        
-        row-gap: 30px;
+      
+        /* row-gap: 30px; */
     }
     .ul_footer {
+        padding: 10px 0;
         width: 100%;
     }
     .social_media {
